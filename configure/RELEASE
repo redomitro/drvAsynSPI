@@ -32,10 +32,10 @@
 ## workaround enabled, uncomment the following line
 #STREAM_WORKAROUND = 1
 
-#ASYN=/opt/epics/R315.5/modules/soft/asyn/4-31
+ASYN=/opt/epics/R315.5/modules/soft/asyn/4-31
 
 # EPICS_BASE should appear last so earlier modules can override stuff:
-EPICS_BASE=/home/rea/EPICS/base
+EPICS_BASE=/opt/epics/R315.5/base
 
 # Set RULES here if you want to use build rules from somewhere
 # other than EPICS_BASE:
