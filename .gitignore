@@ -29,6 +29,6 @@
 
 # Epics
 O.*/
-./bin/
-./include/
-./lib/
+./dbd/*
+./include/*
+./lib/*
