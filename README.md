@@ -14,8 +14,9 @@ Original files of drvAsynI2C were obtained from [here](https://github.com/ffeldb
 
 ## Installation
 
- 1.  Edit "configure/RELEASE" according to your environment
- 2.  Type `make` inside the top directory
+ 1.  When building inside a motor submodule, skip to step 3.
+ 2.  When building outside a motor submodule, copy `configure/EXAMPLE_RELEASE.local` to `RELEASE.local` and manually define paths to dependencies.
+ 3.  Run `make` inside the top directory.
 
 ## Usage
 

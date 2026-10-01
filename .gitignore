@@ -29,4 +29,9 @@
 
 # Epics
 O.*/
+/dbd/*
+/include/*
+/lib/*
 
+# Example files
+*/EXAMPLE*
